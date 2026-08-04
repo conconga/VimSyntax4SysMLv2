@@ -1,0 +1,3 @@
+[submodule "submodules/sysmlv2_nvim"]
+	path = submodules/sysmlv2_nvim
+	url = https://github.com/EthanJamesLew/sysmlv2.nvim.git
