@@ -22,8 +22,8 @@ Create Vim's user syntax directory and install the file under the name used by
 the `sysmlv2` file type:
 
 ```sh
-mkdir -p ~/.vim/syntax
-cp sysmlv2.vim ~/.vim/syntax/sysmlv2.vim
+$ mkdir -p ~/.vim/syntax
+$ cp sysmlv2.vim ~/.vim/syntax/sysmlv2.vim
 ```
 
 Then add file-type detection for SysML files to `~/.vimrc`:
@@ -52,7 +52,7 @@ To try the highlighter without changing your Vim configuration, open a SysML
 v2 file with a clean Vim session:
 
 ```sh
-vim --clean -Nu NONE -c 'syntax on' -c 'source sysmlv2.vim' model.sysml
+$ vim --clean -Nu NONE -c 'syntax on' -c 'source sysmlv2.vim' model.sysml
 ```
 
 ## Reference
