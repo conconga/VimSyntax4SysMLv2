@@ -43,7 +43,7 @@ from `~/.vimrc` (replace the path as needed):
 
 ```vim
 syntax enable
-autocmd BufRead,BufNewFile *.sysml source /path/to/sysmlv2_vim/sysmlv2.vim
+autocmd BufRead,BufNewFile *.sysml,*.kerml source /path/to/sysmlv2_vim/sysmlv2.vim
 ```
 
 ## Testing
@@ -61,4 +61,3 @@ This project uses
 [EthanJamesLew/sysmlv2.nvim](https://github.com/EthanJamesLew/sysmlv2.nvim)
 as a reference and starting point. It is included as a Git submodule, but the
 submodule does not need to be initialized to use `sysmlv2.vim`.
-
