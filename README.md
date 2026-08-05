@@ -43,7 +43,7 @@ from `~/.vimrc` (replace the path as needed):
 
 ```vim
 syntax enable
-autocmd BufRead,BufNewFile *.sysml,*.kerml source /path/to/sysmlv2_vim/sysmlv2.vim
+autocmd BufRead,BufNewFile *.sysml,*.kerml setfiletype sysml | source /path/to/sysmlv2_vim/sysmlv2.vim
 ```
 
 ## Testing
