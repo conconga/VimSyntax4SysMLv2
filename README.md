@@ -1,5 +1,9 @@
 # SysML v2 syntax highlighting for Vim
 
+<p align="center">
+  <img src="assets/watch_bg.png" alt="SysML v2 source code highlighted in Vim beside a generated system model diagram" width="100%">
+</p>
+
 This repository provides a standalone Vim syntax file for SysML v2 text
 models, including the KerML foundation. It has no JavaScript, Lua, Node.js, or
 other runtime dependencies.
